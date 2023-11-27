@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Portifólio {nome}</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">{name}</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <img src="./img/menu.png" alt="" class="menu-icon">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#sobre-mim">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contato">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-disabled="true"  href="#tecnologias">Tecnologias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-disabled="true"  href="#sessao-projetos">Projetos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </header>
+    
+    <main>
+
+        <section class="sobre-mim p-3 container" id="sobre-mim">
+            <h2 class="sobre-mim-titulo-principal mb-3">Sobre mim</h2>
+            <div class="d-flex gap-3">
+                <div class="d-flex sobre-mim-descricao gap-3">
+                    <img src="./img/imagem_usuario.avif" alt="">
+                    <div>
+                        <h3>Descrição</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam assumenda expedita veniam nam ipsam beatae officia itaque, commodi consequatur accusamus quo aspernatur dolorum mollitia perferendis eligendi, nesciunt in natus repudiandae.</p>
+                        <a href="./curriculo/curriculo.docx" download><button class="btn btn-success">Baixar CV</button></a>
+                    </div>
+                </div>
+                <nav class="d-flex justify-content-start flex-column"  id="contato">
+                    <h3>Entre em contato comigo!!!</h3>
+                    <ul class="d-flex gap-5 list-none flex-wrap">
+                      <a href="https://github.com/" class="text-decoration-none" target="_blank">
+                        <li class="github">
+                            <span>GitHub</span>
+                            <img src="./img/github.svg" alt="" class="d-block">
+                          </li>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                        <li class="linkedin">
+                            <span>Linkedin</span>
+                            <img src="./img/icons8-linkedin-48.png" alt="" class="d-block" target="_blank">
+                          </li>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                        <li class="email">
+                            <span>Whatsapp</span>
+                            <img src="./img/whatsapp.svg" alt="" class="d-block" target="_blank">
+                          </li>
+                        </a>
+                        <a href="" class="text-decoration-none">
+                        <li class="email">
+                            <span>Email</span>
+                            <img src="./img/envelope-regular.svg" alt="" class="d-block" target="_blank">
+                          </li>
+                        </a>
+                      </ul>
+                </nav>
+              </div>
+            </section> 
+            
+           
+
+        <section class="container p-3" id="tecnologias">
+            <h2 class="mb-2">Tecnologias</h2>
+            <div class="row justify-content-center">
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/html5.jpg" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">HTML5</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/css3.jpg" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS3</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/bootstrap.png" class="card-img-top img-fluid" alt="..." style="height: 160px;">
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/javascript.png" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/java.png" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/sql.jpg" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">SQL</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/git.png" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">GIT</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-4">
+                <div class="card text-center">
+                  <img src="img/github.jpeg" class="card-img-top" alt="..." style="height: 160px; object-fit: cover">
+                  <div class="card-body">
+                    <h5 class="card-title">GitHub</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="projetos container p-3 d-flex flex-column gap-3" id="sessao-projetos">
+            <h2>Projetos</h2>
+            <div id="projetos">
+
+            </div>
+          </section>
+          
+
+    </main>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
